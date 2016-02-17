@@ -22,7 +22,7 @@ html *
 
 p#reszletek {
   margin-left: 1%;
-  margin-right: 52%;
+  width: 228px;
   border:1px solid black; 
   border-radius: 5px; 
   padding: 2px;
