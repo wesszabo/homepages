@@ -1,214 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Teaching</title>
-  <link rel="stylesheet" href="teaching.css">
-</head>
-<body>
+html *
+{
+  font-size: 1em !important;
+  font-weight: bold;
+  font-family: Arial !important;
+}
 
-  <div id="link_bar">
-    <ol>
-      <li>Matematika A2a - Vektorfüggvények (BMETE90AX02)&nbsp; 
+#link_bar a:link { color:#00CED1; background-color:#E0FFFF; text-decoration: none; padding: 1px 2px 1px 2px}
+#link_bar a:visited { color:#c0c0c0; background-color:#0000CD; text-decoration: none;}
+#link_bar a:hover { color:#ffffff; background-color:#000060; text-decoration: underline;}
+#link_bar a:active { color:#f0f0f0; background-color:olive; text-decoration: underline;}
 
-        <ol>
-          <li>2006 tavasz: gyakorlat <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2007 ősz: előadás, gyakorlat <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2008 ősz: előadás <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2009 ősz: előadás, gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2010 tavasz: gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2010 ősz: előadás, gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2011 ősz: előadás, gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2012 ősz: gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2013 tavasz: gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-          <li>2014 ősz: előadás, gyakorlat &nbsp; <a href="https://sites.google.com/site/bmesszabomata2vill/" target="_blank">honlap</a></li>
-        </ol>
-      </li>
-      <li>Matematika A3 &nbsp;villamosmérnököknek (BMETE90AX09)&nbsp; 
-        <ol>
-          <li>2007 ősz: gyakorlat&nbsp;&nbsp; <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a></li>
-          <li>2008 tavasz: előadás, gyakorlat&nbsp;&nbsp; <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a></li>
-          <li>2009 ősz: gyakorlat&nbsp;&nbsp; <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a></li>
-          <li>2012 ősz: gyakorlat&nbsp;&nbsp; <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a></li>
-          <li>2014 ősz: gyakorlat&nbsp;&nbsp; <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a>, <a href="http://www.math.bme.hu/~pitrik/" target="_blank">előadó honlapja</a> (Pitrik József)</li>
-        </ol>
-      </li>
-      <li>Matematika L2c - Vektorfüggvények (BMETE90AX31)
-        <ol>
-          <li>2008 tavasz: előadás, gyakorlat&nbsp; <a href="https://sites.google.com/site/bmesszabomata2avegy/" target="_blank">honlap</a></li>
-          <li>2014 tavasz: előadás, gyakorlat&nbsp; <a href="https://sites.google.com/site/bmesszabomata2avegy/" target="_blank">honlap</a></li>
-          <li>2015 tavasz: előadás, gyakorlat&nbsp; <a href="https://sites.google.com/site/bmesszabomata2avegy/" target="_blank">honlap</a></li>
-        </ol>
-      </li>
-      <li>Matematika L1c - Analízis (BMETE90AX30)
-        <ol>
-          <li>2013 ősz: előadás, gyakorlat</li>
-        </ol>
-      </li>
-      <li>
-        <span class="recent_course">
-          Matematika M1c - Differenciálegyenletek</span> (BMETE90MX44)&nbsp; <a href="http://www.math.bme.hu/~karatson/M1c.html" target="_blank">előadó honlapja</a> (Karátson János)
-        <ol>
-          <li>2014 tavasz: gyakorlat</li>
-          <li>2015 tavasz: gyakorlat</li>
-          <li>
-            <span class="recent_year">
-              2016 tavasz:</span> gyakorlat &nbsp;&nbsp;<a href="https://sites.google.com/site/bmesszabodiffeqm1c/" target="_blank">honlap</a> <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a></li>
-        </ol>
-      </li>
-      <li>Numerikus számítások fizikusoknak (BMETE92AF01) <a href="https://sites.google.com/site/bmesszabonumszamfiz/" target="_blank">honlap</a>
-        <ol>
-          <li>2007 tavasz: laborgyakorlat </li>
-          <li>2008 tavasz: laborgyakorlat </li>
-          <li>2009 tavasz: laborgyakorlat </li>
-          <li>2010 tavasz: laborgyakorlat </li>
-          <li>2011 tavasz: laborgyakorlat </li>
-          <li>2012 tavasz: laborgyakorlat </li>
-          <li>2013 tavasz: laborgyakorlat </li>
-          <li>2014 tavasz: laborgyakorlat </li>
-          <li>2015 tavasz: laborgyakorlat </li>
-        </ol>
-      </li>
-      <li>
-        Maple, alkalmazásokkal (BMETE92AX31) <a href="https://sites.google.com/site/bmesszabomaple/" target="_blank">honlap</a>
-        <ol>
-          <li>2013 ősz: laborgyakorlat  </li>
-          <li>2015 ősz: laborgyakorlat  </li>
-        </ol></li>
-      <li>
-        Matematika A1  villamosmérnököknek (BMETE90AX00)  
-        <ol>
-          <li>2011 ősz: gyakorlat <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a></li>
-          <li>2015 ősz: gyakorlat <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a>, <a href="http://math.bme.hu/~pitrik/" target="_blank">előadó honlapja</a> (Pitrik József)</li>
-        </ol></li>
-      <li>
-        Matematika A1  villamosmérnököknek (BMETE90AX00)  
-        <ol><li>      
-           2015 ősz:
-          gyakorlat 
-          <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a>, <a href="http://math.bme.hu/~mweiner/a1a/" target="_blank">előadó honlapja</a>  (Weiner Mihály) </li>
-        </ol></li>
-      <li>
-        Matematika A1a  vegyész-, bio- és környezetmérnököknek (BMETE90AX00)  
-        <ol>
-          <li>2007 tavasz: előadás <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a></li>
-          <li>2009 tavasz: előadás <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a></li>
-          <li>2011 tavasz: előadás, gyakorlat  <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a></li>
-          <li>2012 tavasz: gyakorlat  <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a> </li>
-          <li>2013 ősz: gyakorlat  <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a>, <a href="http://www.math.bme.hu/~pataki/crs/vbk%20a1a.htm" target="_blank">előadó honlapja</a> (Pataki Gergely)</li>
-          <li>2015 ősz: gyakorlat  <a href="https://sites.google.com/site/bmesszabomata1" target="_blank">honlap</a>, <a href="http://www.math.bme.hu/~pataki/crs/vbk%20a1a.htm" target="_blank">előadó honlapja</a> (Pataki Gergely)</li>
-        </ol></li>
-      <li>
-        <span class="recent_course">Matematika A2c  vegyész-, bio- és környezetmérnököknek</span> (BMETE90AX17)  <a href="http://www.math.bme.hu/~pataki/crs/a2c.htm" target="_blank">előadó honlapja</a> (Pataki Gergely)
-        <ol><li>
-          <span class="recent_year"> 2016 tavasz:</span> gyakorlat   <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a></li>
-        </ol></li>
-      <li>
-        <span class="recent_course">Dinamikus modellek a közgazdaságtanban 2</span> (BMETE90MX49)  <a href="https://sites.google.com/site/bmesszabodiffeqm1c/" target="_blank">honlap</a> <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a>
-        <ol><li>
-          <span class="recent_year"> 2016 tavasz:</span> gyakorlat   </li>
-        </ol></li>
-      <li>
-        Analízis 1  informatikusoknak (BMETE90AX04)  
-        <ol>
-          <li>2008 ősz: gyakorlat </li>
-        </ol></li>
-      <li>
-        <span class="recent_course">Analízis 2 informatikusoknak</span> (BMETE90AX22)  
-        <ol>
-          <li>2011 tavasz: gyakorlat </li>
-          <li>2014 tavasz: gyakorlat </li>
-          <li>
-          <span class="recent_year"> 2016 tavasz:</span> gyakorlat   <a href="http://diffeqinapplications.blogspot.hu/" target="_blank">Differenciálegyenlet blog</a>, <a href="http://math.bme.hu/~rhorvath/anal2info.html" target="_blank">előadó honlapja</a> (Horváth Róbert) 
-          </li>
-        </ol></li>
-      <li>
-        A matematikai fizika egyenletei (BMETE92AK26)  
-        <ol>
-          <li>2011 tavasz: előadás </li>
-          <li>2012 tavasz: előadás </li>
-          <li>2014 tavasz: előadás </li>
-        </ol></li>
-      <li>
-        Analízis 3 (BMETE92AM23)  
-        <ol><li>
-          2013 ősz: gyakorlat <a href="http://measuretheoryinexercises.blogspot.hu/" target="_blank">Mértékelmélet blog</a>, <a href="http://www.math.bme.hu/~horvath/oktatas.html" target="_blank">előadó honlapja</a> (Horváth Miklós)   
-          </li>
-        </ol></li>
-      <li>
-        Feladatok az általános topológiából (BMETE92AM30)  
-        <ol><li>
-          2013 tavasz: előadás    
-          </li>
-        </ol></li>
-      <li>
-        Speciális függvények (BMETE925490)  
-        <ol>
-          <li>2004 ősz: előadás</li>
-          <li>2006 ősz: előadás</li>
-          <li>2008 ősz: előadás</li>
-          <li>2010 ősz: előadás</li>
-          <li>2012 ősz: előadás</li>
-        </ol></li>
-      <li>
-        Analízis 4 (BMETE92AM11)  
-        <ol>
-          <li>2010 ősz: előadás, gyakorlat</li>
-          <li>2011 ősz: előadás, gyakorlat</li>
-        </ol></li>
-      <li>
-        Numerikus és szimbolikus számítások (BMETE921008)  
-        <ol>
-          <li>2004 tavasz: laborgyakorlat</li>
-          <li>2005 tavasz: laborgyakorlat</li>
-          <li>2006 tavasz: laborgyakorlat</li>
-          <li>2007 tavasz: laborgyakorlat</li>
-          <li>2008 tavasz: laborgyakorlat</li>
-          <li>2010 tavasz: laborgyakorlat</li>
-        </ol></li>
-      <li>
-        Mathematics (BMETKTEMM10)  
-        <ol>
-          <li>2008 ősz: előadás</li>
-        </ol></li>
-      <li>
-        Mathematics II (BMETKTEMB10)  
-        <ol>
-          <li>2008 tavasz: előadás</li>
-        </ol></li>
-      <li>
-        Numerikus módszerek (BMETE922455)  
-        <ol>
-          <li>2004 ősz: gyakorlat</li>
-          <li>2007 ősz: gyakorlat</li>
-        </ol></li>
-      <li>
-        Matematika kiegészítő szakosoknak (BMETE921200)  
-        <ol>
-          <li>2005 ősz: előadás</li>
-          <li>2006 ősz: előadás</li>
-        </ol></li>
-      <li>
-        Matematika B3* (BMETE922246)  
-        <ol>
-          <li>2004 tavasz: előadás, gyakorlat</li>
-          <li>2005 tavasz: előadás, gyakorlat</li>
-          <li>2006 tavasz: gyakorlat</li>
-        </ol></li>
-      <li>
-        Matematika B2 (BMETE901918)  
-        <ol>
-          <li>2003 ősz: előadás, gyakorlat</li>
-          <li>2004 tavasz: gyakorlat</li>
-          <li>2004 ősz: előadás</li>
-        </ol></li>
-    </ol>
-    <p id="reszletek">Részletek, bővebb információ</p>
-  </div>
-  <div id="link_bar">
-    <a href="https://sites.google.com/site/vesandorszabo/" style="margin:5px;" target="_blank">https://sites.google.com/site/vesandorszabo/</a></div>
-  <p> </p>
-  <p>&nbsp;</p>
-</body>
-</html>
+.recent_course {
+  text-decoration: underline;
+}
+
+.recent_year {
+  color: #ffffff;
+  background-color: rgb(255, 0, 0); 
+  line-height:28.4444px;
+}
+
+p#reszletek {
+  margin-left: 5px;
+  width: 228px;
+  border:1px solid black; 
+  border-radius: 5px; 
+  padding: 0 1% 0 1%;
+}
