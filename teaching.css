@@ -1,29 +1,83 @@
-html *
-{
-  font-size: 1em !important;
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: beige;
+  border: 1px solid red;
+}
+
+h2 {
+ text-decoration: underline;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 18px;
+}
+
+details {
+  display:block; 
+  margin:10px 0;
+}
+
+details ol {
+  line-height: 25px;
+}
+
+summary {
+  display:block; 
+  background:#99B92C;
+  color:#ffffff;
+  border-radius: 6px;
+  padding:5px;
+  cursor:pointer;
+  font-weight:bold;
+  min-width: 630px;
+  margin-bottom: 1em;
+}
+
+summary:hover {
+  background-color: coral;
+}
+
+summary::-webkit-details-marker {
+  color:#FF0000; 
+  background:#FFFFFF; 
+}
+
+details[open] summary::-webkit-details-marker {
+  color:#0000FF; 
+  background:#00FFFF;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after {
+  content: "+";
+  color: blue;
+  float: left;
+  font-size: 1.4em;
   font-weight: bold;
-  font-family: Arial !important;
+  margin: -5px 5px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  border: 1px solid blue;
 }
 
-#link_bar a:link { color:#00CED1; background-color:#E0FFFF; text-decoration: none; padding: 1px 2px 1px 2px}
-#link_bar a:visited { color:#c0c0c0; background-color:#0000CD; text-decoration: none;}
-#link_bar a:hover { color:#ffffff; background-color:#000060; text-decoration: underline;}
-#link_bar a:active { color:#f0f0f0; background-color:olive; text-decoration: underline;}
-
-.recent_course {
-  text-decoration: underline;
+details[open] summary:after {
+  content: "--";
+  color: blue;
 }
 
-.recent_year {
-  color: #ffffff;
-  background-color: rgb(255, 0, 0); 
-  line-height:28.4444px;
-}
-
-p#reszletek {
-  margin-left: 5px;
+#reszletek {
+  margin-left: 15px;
   width: 228px;
   border:1px solid black; 
   border-radius: 5px; 
   padding: 0 1% 0 1%;
 }
+
+a:link { color:#188967; background-color:#E0FFFF; text-decoration: none;   padding: 1px 2px 1px 2px}
+a:visited { color:#c0c0c0; background-color:#0000CD; text-decoration: none;}
+a:hover { color:#ffffff; background-color:#000060; text-decoration: underline;}
+a:active { color:#f0f0f0; background-color:olive; text-decoration: underline;}
