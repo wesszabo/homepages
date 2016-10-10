@@ -78,6 +78,6 @@ details[open] summary:after {
 }
 
 a:link { color:#188967; background-color:#E0FFFF; text-decoration: none;   padding: 1px 2px 1px 2px}
-a:visited { color:#c0c0c0; background-color:#0000CD; text-decoration: none;}
+a:visited { color:#c0c0c0; background-color:#2b82cc; text-decoration: none;}
 a:hover { color:#ffffff; background-color:#000060; text-decoration: underline;}
 a:active { color:#f0f0f0; background-color:olive; text-decoration: underline;}
